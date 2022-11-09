@@ -23,14 +23,14 @@ $$  \ /$$//$$$$$$  |$$ |/$$$$$$$/ /$$$$$$  |      $$    $$< /$$$$$$  |/$$$$$$$/ 
 print(colored("Report a bug at: github.com/Habeel06",'red'))
 print(colored("By default the files will be saved at the location of this file.",'yellow'))
 while True:
-    a=str(input("Name of the file:"))
+    a=str(input("Name of the file(including extension-txt,vbs,html etc):"))
 
 
   
     while ".mp3" in a:
         print("It will not work, use only text based files.I have saved it for another project or I will just fix this .")
     
-        a=str(input("Name of the file:"))
+        a=str(input("Name of the file(including extension-txt,vbs,html etc):"))
 
     r=sr.Recognizer()
 
@@ -40,7 +40,7 @@ while True:
         engine=pyttsx3.init()
         engine.say(command)
 
-        # engine.save_to_file('MyText','voicerecognizer.mp3')
+    
         engine.runAndWait()
 
     with sr.Microphone() as source:
