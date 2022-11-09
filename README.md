@@ -1,6 +1,7 @@
 # Voice-Recognizer-save-audio-text-as-a-file
 ## 📝About
 A voice recognizer that recognizes the text in your voice and then saves it in a file.
+🟢Wait for a few seconds after you complete saying something.
 ## 👨‍💻 Dependencies
 MAKE SURE THAT YOU HAVE THESE MODULES INSTALLED FIRST!
 > pyttsx3<br>
