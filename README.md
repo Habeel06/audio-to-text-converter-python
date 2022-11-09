@@ -4,7 +4,9 @@ A voice recognizer that recognizes the text in your voice and then saves it in a
 ## 👨‍💻 Dependencies
 MAKE SURE THAT YOU HAVE THESE MODULES INSTALLED FIRST!
 > pyttsx3<br>
->SpeechRecognition
+>SpeechRecognition<br>
+>termcolor<br>
+>colorama<br>
 
 
 ## 📺 Updates
