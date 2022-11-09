@@ -1,4 +1,4 @@
-# Audio to text converter using Python.
+
 ## 📝About
 A voice recognizer that recognizes the text in your voice and then saves it in a file. <br>
 🟢Wait for a few seconds after you complete saying something.
