@@ -20,7 +20,7 @@ $$  \ /$$//$$$$$$  |$$ |/$$$$$$$/ /$$$$$$  |      $$    $$< /$$$$$$  |/$$$$$$$/ 
                                                                                           $$    $$/                                             
                                                                                            $$$$$$/                                            ''','cyan'))
 
-print(colored("Report a bug at: github.com/Habeel06",'red'))
+print(colored("Report a bug at: https://github.com/Habeel06/audio-to-text-converter-python",'red'))
 print(colored("By default the files will be saved at the location of this file.",'yellow'))
 while True:
     a=str(input("Name of the file(including extension-txt,vbs,html etc):"))
