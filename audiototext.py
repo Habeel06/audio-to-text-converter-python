@@ -3,7 +3,8 @@ import pyttsx3
 from termcolor import colored
 import colorama 
 colorama.init()
-
+import os
+os.system('color')
 print(colored('''
 \n
 \n
