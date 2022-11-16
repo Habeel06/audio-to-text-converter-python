@@ -11,6 +11,6 @@ MAKE SURE THAT YOU HAVE THESE MODULES INSTALLED FIRST!
 
 
 ## 📺 Updates
-<h2>IN DEVELOPMENT! </h2>
+<h2>COMPLETED! </h2>
 
->I have to add many things.
+
