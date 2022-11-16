@@ -23,11 +23,8 @@ $$  \ /$$//$$$$$$  |$$ |/$$$$$$$/ /$$$$$$  |      $$    $$< /$$$$$$  |/$$$$$$$/ 
 print(colored("Report a bug at: https://github.com/Habeel06/audio-to-text-converter-python",'red'))
 print(colored("By default the files will be saved at the location of this file.",'yellow'))
 while True:
-    a=str(input("Name of the file(including extension-txt,vbs,html etc):"))
-
-
-  
-    while ".mp3" in a:
+   a=str(input(colored("Name of the file(including extension-txt,vbs,html etc):","green")))
+  while ".mp3" in a:
         print("It will not work, use only text based files.I have saved it for another project or I will just fix this .")
     
         a=str(input("Name of the file(including extension-txt,vbs,html etc):"))
